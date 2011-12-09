@@ -6,10 +6,11 @@ Gem to setup helper methods for include various js libs hosts in GINA cdn server
 
 How to install
 --------------
-* Update Gemfile
+
+Add dependency to Gemfile:
 
     gem "gina_cdn", :git => "https://github.com/gina-alaska/gina-cdn.git"
-
-* In app/helpers/application_helper.rb add
+    
+In your app/helpers/application_helper.rb add
 
     include GinaCDN::Helpers
