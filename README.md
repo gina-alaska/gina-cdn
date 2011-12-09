@@ -5,9 +5,9 @@ Gem to setup helper methods for include various js libs hosts in GINA cdn server
 
 List of hosted JS Libs
 ----------------------
-  - Openlayers (2.11)
-  - proj4js (1.0)
-  - extjs (3.0.0, 3.0.3, 3.1.1, 3.2.0, 3.2.1, 3.3.1, 4.0.2a, 4.0.5, 4.0.6, 4.0.7, 4.1-pr1)
+  - [Openlayers](http://openlayers.org) (2.11)
+  - [proj4js](http://proj4js.org) (1.0)
+  - [ExtJS](http://sencha.com) (3.0.0, 3.0.3, 3.1.1, 3.2.0, 3.2.1, 3.3.1, 4.0.2a, 4.0.5, 4.0.6, 4.0.7, 4.1-pr1)
 
 How to install
 --------------
@@ -24,3 +24,4 @@ Then you can load the cdn hosted library in applicaiton.html.haml (haml rocks) o
 by doing
 
     = cdn_load(:openlayers)
+    
