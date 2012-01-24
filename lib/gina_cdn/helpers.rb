@@ -14,7 +14,6 @@ module GinaCDN
     
     def cdn_include_css(lib, h={})
       version = h.delete :version
-      
       stylesheet_link_tag( *target(lib, version).css, *h )
     end
     
